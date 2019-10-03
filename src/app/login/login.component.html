@@ -1,0 +1,32 @@
+<style>
+    div
+    {
+      text-align: center;
+      border: 5px solid brown;
+      color: burlywood;
+      
+    }
+    h2{
+        text-align: center;
+    }
+</style>
+<body>
+  
+    <div >
+            <form ngForm="f" (ngSubmit)="submit()">
+        <h2 >{{name}}</h2>
+        
+         <br><br>
+           Username  : <input type="text" name="uname" ngModel><br><br>
+           Mobile  : <input type="text" name="mobileno" ngModel><br><br>
+        
+           
+           <button type="submit" class="btn btn-success">Login</button>
+           <br><br><br>
+        </form>
+        
+         </div>
+
+</body>
+ 
+
