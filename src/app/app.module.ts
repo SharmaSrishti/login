@@ -23,7 +23,6 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     RouterModule.forRoot(appRoutes),
     FormsModule
   ],
